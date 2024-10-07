@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active{
+  color: #DDE2FF;
+  background-color: rgba(159, 162, 180, 8%);
+}
+
+.active::before{
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 100%;
+  left: 0;
+  background-color: #DDE2FF;
+}
+body{
+  background-color: #F7F8FC;
+}
